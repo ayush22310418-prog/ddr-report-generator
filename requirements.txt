@@ -1,0 +1,13 @@
+# DDR Report Generator — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+anthropic>=0.25.0          # Claude AI API client
+pdf2image>=1.16.3          # PDF to image conversion
+Pillow>=10.0.0             # Image processing
+python-docx>=1.1.0         # Word document generation
+requests>=2.31.0           # HTTP requests (API calls)
+
+# System dependencies (install separately):
+# Ubuntu/Debian: sudo apt-get install poppler-utils
+# macOS:         brew install poppler
+# Windows:       https://github.com/oschwartz10612/poppler-windows
