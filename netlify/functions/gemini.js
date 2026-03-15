@@ -15,7 +15,7 @@ exports.handler = async (event) => {
       return { statusCode: 400, body: JSON.stringify({ error: "Missing apiKey or prompt" }) };
     }
 
-    const model = "gemini-1.5-flash";
+    const model = "gemini-2.0-flash";
     const url   = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
 
     // Build request parts
